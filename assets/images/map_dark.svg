@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="efaf6d37-ad8b-408b-a167-fb47e2b6544c"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 926 748"
+	 style="enable-background:new 0 0 926 748;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#4E6A99;}
+	.st3{clip-path:url(#SVGID_3_);}
+	.st4{fill:url(#SVGID_4_);}
+	.st5{opacity:0.1;enable-background:new    ;}
+	.st6{fill:#FF5252;}
+</style>
+<title>Map dark</title>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="450.451" y1="109.756" x2="450.451" y2="784.093" gradientTransform="matrix(1 0 0 -1 0 816)">
+	<stop  offset="0" style="stop-color:#808080;stop-opacity:0.25"/>
+	<stop  offset="0.5351" style="stop-color:#808080;stop-opacity:0.12"/>
+	<stop  offset="1" style="stop-color:#808080;stop-opacity:0.1"/>
+</linearGradient>
+<polygon class="st0" points="744.1,679.8 584.3,679.8 312.2,706.2 38,679.8 38,31.9 311,51.7 590,31.9 863,69.4 855.9,566.9 "/>
+<polygon class="st1" points="738.9,670.8 582.6,670.8 316.4,696.5 48.2,670.8 48.2,40.4 315.3,59.7 588.2,40.4 855.1,76.9 
+	848.3,561 "/>
+<polygon class="st2" points="739.7,653.6 575.2,653.6 324.1,677.9 71.1,653.6 71.1,59 323,77.2 580.4,59 832.2,93.4 832.2,560.6 "/>
+<g>
+	<defs>
+		<polygon id="SVGID_2_" points="739.7,653.6 575.2,653.6 324.1,677.9 71.1,653.6 71.1,59 323,77.2 580.4,59 832.2,93.4 
+			832.2,560.6 		"/>
+	</defs>
+	<clipPath id="SVGID_3_">
+		<use xlink:href="#SVGID_2_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st3">
+		<polygon class="st1" points="1057,832.1 479.1,512.1 625.9,24.3 575.9,4.5 504.8,240.9 -62,-73 -85,-18.4 487.4,298.6 
+			356.7,732.8 406.7,752.6 461.7,569.8 1034.1,886.8 		"/>
+	</g>
+</g>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="788.186" y1="146.189" x2="788.186" y2="268.924" gradientTransform="matrix(1 0 0 -1 0 816)">
+	<stop  offset="0" style="stop-color:#000000;stop-opacity:0.12"/>
+	<stop  offset="0.5513" style="stop-color:#000000;stop-opacity:9.000000e-02"/>
+	<stop  offset="1" style="stop-color:#000000;stop-opacity:2.000000e-02"/>
+</linearGradient>
+<polygon class="st4" points="728.1,669.8 730,547.1 848.3,551.8 "/>
+<polygon class="st1" points="71.1,316 433.8,476.6 458,526.6 434,551.6 71.1,379.5 "/>
+<polygon class="st1" points="738.9,669.8 740.6,556.6 848.3,561 "/>
+<polygon class="st1" points="564,574.6 715.3,77.5 775.5,85.7 606,600.6 "/>
+<polyline class="st5" points="323,677.9 575,653.6 575,59 323,77.2 "/>
+<path class="st6" d="M553.8,275.4c0,48-87,184-87,184s-87-136-87-184c0-48,38.9-87,87-87C514.9,188.5,553.8,227.4,553.8,275.4
+	C553.8,275.4,553.8,275.4,553.8,275.4L553.8,275.4z"/>
+<circle class="st1" cx="466.8" cy="269.4" r="26.3"/>
+<polygon class="st1" points="699.7,316 832.2,350 832.2,413.5 670,355.6 "/>
+<polygon class="st1" points="194.4,438 161,669.6 199,677.6 249,463.9 249,433.6 "/>
+<polygon class="st1" points="193.1,135.6 155.5,353.4 184.6,369.1 254,135.6 "/>
+<circle class="st6" cx="265" cy="92.6" r="8"/>
+<circle class="st6" cx="169" cy="506.6" r="8"/>
+<circle class="st6" cx="161" cy="565.6" r="8"/>
+<circle class="st6" cx="246" cy="551.6" r="8"/>
+<circle class="st6" cx="109" cy="311.6" r="8"/>
+<circle class="st6" cx="739" cy="303.6" r="8"/>
+<circle class="st6" cx="670" cy="581.6" r="8"/>
+</svg>
