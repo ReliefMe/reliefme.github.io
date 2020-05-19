@@ -1201,19 +1201,6 @@ nav.navbar.bootsnav.navbar-transparent.white ul.nav>li>a.btn-outline:focus {
 
 }
 
-
-.rounded-triangle {
-  height: 1006px;
-  background: url(http://incognitothemes.com/infectious/assets/images/triangle-yellow-hero.svg) no-repeat center center;
-  background-size: cover;
-}
-
-.rounded-image {
-  height: 1020px;
-  background: url(../../../../incognitothemes.com/infectious/assets/images/background/bg-image.html) no-repeat center center;
-  background-size: cover;
-}
-
 .rounded-image .hero-text h3 {
   line-height: 75px;
 }
@@ -1300,16 +1287,6 @@ nav.navbar.bootsnav.navbar-transparent.white ul.nav>li>a.btn-outline:focus {
 
 .green-bg {
   background-color: #8BC34A;
-}
-
-.pattern-bg-dark {
-  background-image: url(../../../../incognitothemes.com/infectious/assets/images/dark-pattern.html);
-  background-repeat: repeat;
-}
-
-.pattern-bg-light {
-  background-image: url(../../../../incognitothemes.com/infectious/assets/images/light-pattern.html);
-  background-repeat: repeat;
 }
 
 .light-br-r {
@@ -1616,10 +1593,6 @@ section.dark-block.title-hero-bg::before {
   height: 207px;
   z-index: -1;
   opacity: 0.1;
-}
-
-.box-title-three:after {
-  background: url(http://incognitothemes.com/infectious/assets/images/polygon-box-2.svg) no-repeat;
 }
 
 .img-icon {
@@ -2057,22 +2030,6 @@ section.dark-block.title-hero-bg::before {
   z-index: -1;
 }
 
-.hexagon-gradient-left {
-  left: -10%;
-  top: 10%;
-  width: 302px;
-  height: 306px;
-  background: url(http://incognitothemes.com/infectious/assets/images/hexagon-gradient-left.svg) no-repeat;
-}
-
-.triangle-light-blue {
-  right: -7%;
-  bottom: 0%;
-  width: 218px;
-  height: 236px;
-  background: url(http://incognitothemes.com/infectious/assets/images/triangle-light-blue.svg) no-repeat;
-}
-
 .virus-box-1 {
   left: -4%;
   bottom: -23%;
@@ -2089,92 +2046,12 @@ section.dark-block.title-hero-bg::before {
   background: url(../images/virus-box-2.svg) no-repeat;
 }
 
-.circle-box-big:after {
-  left: -10%;
-  margin-top: 50%;
-  width: 848px;
-  height: 849px;
-  background: url(http://incognitothemes.com/infectious/assets/images/circle-box-big.svg) no-repeat;
-}
-
-.triangle-yellow-big {
-  left: -50%;
-  width: 1345px;
-  height: 100vh;
-  background: url(http://incognitothemes.com/infectious/assets/images/triangle-yellow-big.svg) no-repeat;
-  position: absolute;
-  top: 50%;
-  transform: translate(-30%, -70%);
-}
-
-.triangle-light-blue-big {
-  right: -40%;
-  top: -50%;
-  width: 755px;
-  height: 813px;
-  background: url(http://incognitothemes.com/infectious/assets/images/triangle-light-blue-big.svg) no-repeat;
-  transform: translateY(-50%);
-}
-
-.square-light-green-big {
-  right: -50%;
-  top: -50%;
-  width: 681px;
-  height: 682px;
-  background: url(http://incognitothemes.com/infectious/assets/images/square-light-green-big.svg) no-repeat;
-  transform: translateY(50%);
-}
-
 .shapes-wrap {}
 
 .shapes-wrap:after {
   z-index: -1;
   position: absolute;
   content: '';
-}
-
-.hexagon-big-green:after {
-  right: -100%;
-  margin-top: -30%;
-  width: 1443px;
-  height: 1453px;
-  background: url(http://incognitothemes.com/infectious/assets/images/hexagon-big-green.svg) no-repeat;
-}
-
-.bubble-gradient-blue:after {
-  left: -2%;
-  top: 50%;
-  width: 497px;
-  height: 497px;
-  background: url(http://incognitothemes.com/infectious/assets/images/bubble-gradient-blue.svg) no-repeat;
-  transform: translate(-40%, -80%);
-}
-
-.bubble-gradient-purple:after {
-  left: -2%;
-  top: 50%;
-  width: 260px;
-  height: 284px;
-  background: url(http://incognitothemes.com/infectious/assets/images/bubble-gradient-purple.svg) no-repeat;
-  transform: translateY(-50%);
-}
-
-.bubble-big-gradient-purple:after {
-  right: -1%;
-  top: 50%;
-  width: 273px;
-  height: 283px;
-  background: url(http://incognitothemes.com/infectious/assets/images/bubble-big-gradient-purple.svg) no-repeat;
-  transform: translateY(-170%);
-}
-
-.bubble-sm-gradient-blue:after {
-  right: 8%;
-  top: 50%;
-  width: 168px;
-  height: 172px;
-  background: url(http://incognitothemes.com/infectious/assets/images/bubble-sm-gradient-blue.svg) no-repeat;
-  transform: translateY(-150%);
 }
 
 /*=============================================
@@ -3690,18 +3567,6 @@ fieldset[disabled] .btn {
 =============================================*/
 #work {
   position: relative;
-}
-
-#work:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 670px;
-  background: url(../../../../incognitothemes.com/infectious/assets/images/background/work-bg.html) no-repeat center center;
-  background-size: cover;
-  z-index: -1;
 }
 
 #work:before {
@@ -6934,56 +6799,6 @@ section.dark-block .default-slider .slick-dots li button {
 
 .about-me img {
   width: 200px;
-}
-
-.about-us-bg {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/about-us.html) center no-repeat;
-  background-size: cover;
-}
-
-.startup-bg-left {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/startup-bg-left.html) center no-repeat;
-  background-size: cover;
-}
-
-.startup-bg-right {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/travel-bg-right.html) center no-repeat;
-  background-size: cover;
-}
-
-.travel-bg-left {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/travel-bg-left.html) center no-repeat;
-  background-size: cover;
-}
-
-.travel-bg-right {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/travel-bg-right.html) center no-repeat;
-  background-size: cover;
-}
-
-.gym-bg-left {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/gym-bg-left.html) center no-repeat;
-  background-size: cover;
-}
-
-.gym-bg-right {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/gym-bg-right.html) center no-repeat;
-  background-size: cover;
-}
-
-.barber-bg-left {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/barber-bg-left.html) center no-repeat;
-  background-size: cover;
-}
-
-.barber-bg-right {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/barber-bg-right.html) center no-repeat;
-  background-size: cover;
-}
-
-.archi-bg-left {
-  background: url(../../../../incognitothemes.com/infectious/assets/images/archi-bg-left.html) center no-repeat;
-  background-size: cover;
 }
 
 .bg-flex.bg-flex-left {

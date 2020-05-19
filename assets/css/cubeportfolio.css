@@ -2580,92 +2580,26 @@
 .cbp-popup-ready.cbp-popup-lightbox .cbp-popup-next, .cbp-popup-ready.cbp-popup-lightbox .cbp-popup-prev, .cbp-popup-ready.cbp-popup-lightbox .cbp-popup-close {
   visibility: visible; }
 
-/* PREVIOUS BUTTON LIGHBOX */
-.cbp-popup-lightbox .cbp-popup-prev {
-  /* @editable properties */
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat scroll 0 0 transparent;
-  width: 44px;
-  height: 44px;
-  top: 0;
-  bottom: 0;
-  left: 20px;
-  margin: auto; }
-
 .cbp-popup-lightbox .cbp-popup-prev:hover {
   /* @editable properties */
   background-position: 0 -46px; }
-
-/* PREVIOUS BUTTON SINGLEPAGE */
-.cbp-popup-singlePage .cbp-popup-prev {
-  /* @editable properties */
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat scroll 0 -92px transparent;
-  width: 44px;
-  height: 44px;
-  margin: auto;
-  top: 0;
-  right: 108px;
-  bottom: 0;
-  left: 0; }
 
 .cbp-popup-singlePage .cbp-popup-prev:hover {
   /* @editable properties */
   background-position: 0 -138px; }
 
-/* NEXT BUTTON LIGHTBOX */
-.cbp-popup-lightbox .cbp-popup-next {
-  /* @editable properties */
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat scroll -46px 0 transparent;
-  width: 44px;
-  height: 44px;
-  top: 0;
-  bottom: 0;
-  right: 20px;
-  margin: auto; }
 
 .cbp-popup-lightbox .cbp-popup-next:hover {
   /* @editable properties */
   background-position: -46px -46px; }
 
-/* NEXT BUTTON SINGLEPAGE */
-.cbp-popup-singlePage .cbp-popup-next {
-  /* @editable properties */
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat scroll -46px -92px transparent;
-  width: 44px;
-  height: 44px;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 108px; }
-
 .cbp-popup-singlePage .cbp-popup-next:hover {
   /* @editable properties */
   background-position: -46px -138px; }
 
-/* CLOSE BUTTON LIGTHBOX */
-.cbp-popup-lightbox .cbp-popup-close {
-  /* @editable properties */
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat scroll -92px 0 transparent;
-  height: 40px;
-  width: 40px;
-  right: 20px;
-  top: 20px; }
-
 .cbp-popup-lightbox .cbp-popup-close:hover {
   /* @editable properties */
   background-position: -92px -46px; }
-
-/* CLOSE BUTTON SINGLEPAGE */
-.cbp-popup-singlePage .cbp-popup-close {
-  /* @editable properties */
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat scroll -92px -92px transparent;
-  height: 44px;
-  width: 44px;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; }
 
 .cbp-popup-singlePage .cbp-popup-ie8bg {
   background-color: #fff; }
@@ -2690,23 +2624,6 @@
     height: 84px; }
   .cbp-popup-singlePage .cbp-popup-content {
     margin-top: 120px; } }
-
-.cbp-popup-loadingBox {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  z-index: 2;
-  /* @editable properties */
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-loading-popup.html") no-repeat scroll center center #0D0D0D;
-  border: 1px solid rgba(79, 80, 79, 0.3);
-  border-radius: 3px;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=71)";
-  opacity: .71;
-  width: 50px;
-  height: 50px; }
 
 .cbp-popup-ready .cbp-popup-loadingBox {
   visibility: hidden; }
@@ -3007,13 +2924,7 @@
     z-index: 2;
     width: 40px;
     height: 40px; }
-  .cbp-popup-singlePageInline .cbp-popup-close {
-    /* @editable properties */
-    background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat scroll -92px 0 transparent;
-    height: 40px;
-    width: 40px;
-    right: 20px;
-    top: 30px; }
+
   .cbp-popup-singlePageInline .cbp-popup-close:hover {
     /* @editable properties */
     opacity: 0.7; }
@@ -3249,19 +3160,6 @@
   /* @editable properties */
   opacity: 0.8; }
 
-.cbp-nav-next:after, .cbp-nav-prev:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  /* @editable properties */
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat;
-  height: 10px;
-  width: 7px; }
-
 .cbp-nav-next:after {
   /* @editable properties */
   background-position: -134px 0; }
@@ -3344,11 +3242,6 @@
   left: 25px;
   right: auto; }
 
-.cbp-slider .cbp-nav-next:after, .cbp-slider .cbp-nav-prev:after {
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat;
-  width: 44px;
-  height: 44px; }
-
 .cbp-slider .cbp-nav-next:after {
   /* @editable properties */
   background-position: -46px -92px; }
@@ -3396,11 +3289,6 @@
   /* @editable properties */
   left: -14px;
   right: auto; }
-
-.cbp-slider-edge .cbp-nav-next:after, .cbp-slider-edge .cbp-nav-prev:after {
-  background: url("../../../../incognitothemes.com/infectious/assets/img/cbp-sprite.html") no-repeat;
-  width: 9px;
-  height: 16px; }
 
 .cbp-slider-edge .cbp-nav-next:after {
   /* @editable properties */
