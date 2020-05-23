@@ -1,0 +1,58 @@
+.theme-bg-primary {
+    background-color: #4e6a99;
+}
+
+.theme-bg-secondary {
+    background-color: #aab8cc;
+}
+
+.theme-text-primary {
+    color: #4e6a99;
+}
+
+.theme-text-secondary {
+    color: #aab8cc;
+}
+
+/*form checkbox and label*/
+.form-check-label {
+    font-size: large;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    margin-left: 25px;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+}
+
+header img {
+    width: 80%;
+}
+
+/*consent form styling*/
+.form-radio-input {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+
+.form-radio-label {
+    font-size: large;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+}
