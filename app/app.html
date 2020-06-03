@@ -19,13 +19,15 @@
         <div id="step-counter" class="container-fluid text-center mb-3">
             <h1 class="bg-primary pt-2 pb-2 pl-4 pr-4 rounded-circle text-light d-inline">0</h1>
         </div>
-        <form>
+        <form id="myForm" method="POST" action="http://127.0.0.1:5000/api/predict/">
             <!--0-->
             <!--Consent Form-->
             <div class="step form-group">
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aspernatur veritatis at natus
-                    dolorum assumenda facere illo voluptatum aut soluta. Excepturi quis vero cumque iusto reiciendis,
-                    sed vel obcaecati sequi nisi facere veniam adipisci voluptas autem suscipit dicta nam consectetur
+                    dolorum assumenda facere illo voluptatum aut soluta. Excepturi quis vero cumque iusto
+                    reiciendis,
+                    sed vel obcaecati sequi nisi facere veniam adipisci voluptas autem suscipit dicta nam
+                    consectetur
                     et. Quasi dolores ex porro vitae molestias voluptas officiis at.
                 </h4>
                 <br>
@@ -36,7 +38,7 @@
             <!--1-->
             <div class="step form-group">
                 <h4><label for="age">How old are you?</label></h4>
-                <input type="number" name="age" id="age" class="ml-2 form-control form-control-lg" value="">
+                <input type="number" name="age" id="age" class="ml-2 form-control form-control-lg">
             </div>
 
             <!--2-->
@@ -133,7 +135,8 @@
                 <div class="form-check">
                     <input type="checkbox" name="medical_history" id="mh4" class="form-check-input"
                         value="Disease or conditions that make it harder to cough">
-                    <label for="mh4" class="form-check-label">Disease or conditions that make it harder to cough</label>
+                    <label for="mh4" class="form-check-label">Disease or conditions that make it harder to
+                        cough</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" name="medical_history" id="mh5" class="form-check-input"
@@ -151,18 +154,18 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="form-group row">
                 <div class="col">
                     <button class="btn btn-dark btn-lg" type="button" id="previous">Previous</button>
                 </div>
                 <div class="col container-fluid text-right">
                     <button class="btn btn-primary btn-lg" type="button" id="next">Next</button>
-                    <input type="submit" class="btn btn-success btn-lg" value="Check" id="submit">
+                    <button type="submit" class="btn btn-success btn-lg" id="submit">Check</button>
                 </div>
             </div>
+        </form>
     </div>
-    </form>
-    </div>
+
     <noscript>Please allow this page to run JavaScript!</noscript>
     <script src="./app_assets/js/app.js">
     </script>

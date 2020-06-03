@@ -106,21 +106,20 @@ function validateForm(step) {
 }
 
 // form submission 
-let form = document.querySelector('form');
+let form = document.forms['myForm'];
 let fd = new FormData(form);
 
 // Adding event listener for fetching result
-document.querySelector('#submit').addEventListener('click', fetchResult);
+// document.querySelector('#submit').addEventListener('click', fetchResult);
+form.addEventListener('submit', fetchResult);
 
 async function fetchResult(e) {
     e.preventDefault();
 
     if (currentStep === document.getElementsByClassName('step').length - 1 && validateForm(currentStep)) {
         console.log("Submitted");
-        const URL = "https://reliefme.azurewebsites.net/api/predict";
-
-        try {
-            const res = await fetch(URL, {
+       /* try {
+            const res = await fetch("http://127.0.0.1:5000/api/predict/", {
                 method: "POST",
                 body: fd
             });
@@ -132,6 +131,20 @@ async function fetchResult(e) {
             });
         } catch (err) {
             console.log(err.message);
-        }
+        }*/
+
+	// using xhr
+	try {
+		let xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				console.log(JSON.parse(this.responseText));
+			}
+		}
+		xhr.open('POST', 'http://127.0.0.1:5000/api/predict/', true);
+		xhr.send(fd);
+	} catch (err) {
+		console.log(err.message);
+	}
     }
 }
