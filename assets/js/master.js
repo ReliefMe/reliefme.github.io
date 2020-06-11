@@ -5,8 +5,8 @@ jQuery(function ($) {
 
 	jQuery(document).ready(function ($) {
 		$('.counter').counterUp({
-			delay: 20,
-			time: 5000
+			delay: 10,
+			time: 1000
 		});
 
 		mainSlider();
@@ -15,8 +15,6 @@ jQuery(function ($) {
 		clientSlider();
 		blogGridSlider();
 		parallaxEffect();
-
-
 
 		/* ===== PROGRESS BAR ===== */
 
