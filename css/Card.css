@@ -950,7 +950,7 @@ li:before {
 }
 
 
-@media (max-width: 550px) and (min-width:350px) {
+@media (max-width: 550px) and (min-width:450px) {
     
     container-fluid {
 
@@ -961,7 +961,7 @@ li:before {
         align-items: center;
         text-align: justify;
         justify-content: center;
-        padding: 10em;
+        padding: 8.5em;
         /* background-image: linear-gradient(
     -55deg
     , rgba(50, 45, 55, 1) 0%, rgba(101, 96, 106, 1) 100%); */
@@ -1028,29 +1028,158 @@ li:before {
       
 }
 
+@media (max-width: 450px) and (min-width:350px) {
+    
+  container-fluid {
 
-/*@media (min-width: 2512px) {
-    
-    container-fluid {
-        padding: 100px 25em;
-    }
-}
-@media (min-width: 3000px) {
-    
-    container-fluid {
-        padding: 100px 45em;
-    }
-}
-@media (min-width: 3480px) {
-    
-    container-fluid {
-        padding: 100px 65em;
-    }
-}
-@media (min-width: 3480px) {
-    
-    container-fluid {
-        padding: 100px 85em;
-    }
-}*/
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+      justify-content: center;
+      padding: 6.5em;
+      /* background-image: linear-gradient(
+  -55deg
+  , rgba(50, 45, 55, 1) 0%, rgba(101, 96, 106, 1) 100%); */
+      color: #f5f5f5;
+      font-family: 'Exo 2';
+      font-weight: 300;
+      animation: fadeIn .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1;
+  }
 
+  #wrapper {
+      width: 280px;
+      height: 480px;
+      /*perspective: 800px;*/
+      position: relative;
+    }
+
+    #img3 {
+      transform-origin: top right;
+      transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      transition-delay: 100ms;
+      max-width: 105%;
+      pointer-events: none;
+      margin: 120px 0px 0px -10px;
+  }
+  
+  #img2 {
+      transform-origin: top right;
+      transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      transition-delay: 100ms;
+      max-width: 125%;
+      pointer-events: none;
+      margin: 125px 0px 0px -20px;
+  }
+
+  #img1 {
+      transform-origin: top right;
+      transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      transition-delay: 100ms;
+      max-width: 100%;
+      pointer-events: none;
+      margin: 125px 0px 0px 0px;
+  }
+
+    #card {
+      width: 250px;
+      height: 380px;
+      position: relative;
+      transform-style: preserve-3d;
+      transform: translateZ(-140px);
+      transition: transform 350ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      cursor: pointer;
+    
+    }
+    
+    #img-wrapper {
+      animation: float 4s cubic-bezier(1.5, 1, 1, 1.000) infinite alternate;
+      position: absolute;
+      top: 0;
+      right: 0;
+      pointer-events: none;
+      backface-visibility: hidden;
+    }
+    
+    
+}
+
+@media (max-width: 350px) and (min-width:300px) {
+    
+  container-fluid {
+
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+      justify-content: center;
+      padding: 4em;
+      /* background-image: linear-gradient(
+  -55deg
+  , rgba(50, 45, 55, 1) 0%, rgba(101, 96, 106, 1) 100%); */
+      color: #f5f5f5;
+      font-family: 'Exo 2';
+      font-weight: 300;
+      animation: fadeIn .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1;
+  }
+
+  #wrapper {
+      width: 280px;
+      height: 480px;
+      /*perspective: 800px;*/
+      position: relative;
+    }
+
+    #img3 {
+      transform-origin: top right;
+      transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      transition-delay: 100ms;
+      max-width: 105%;
+      pointer-events: none;
+      margin: 120px 0px 0px -10px;
+  }
+  
+  #img2 {
+      transform-origin: top right;
+      transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      transition-delay: 100ms;
+      max-width: 125%;
+      pointer-events: none;
+      margin: 125px 0px 0px -20px;
+  }
+
+  #img1 {
+      transform-origin: top right;
+      transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      transition-delay: 100ms;
+      max-width: 100%;
+      pointer-events: none;
+      margin: 125px 0px 0px 0px;
+  }
+
+    #card {
+      width: 250px;
+      height: 380px;
+      position: relative;
+      transform-style: preserve-3d;
+      transform: translateZ(-140px);
+      transition: transform 350ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      cursor: pointer;
+    
+    }
+    
+    #img-wrapper {
+      animation: float 4s cubic-bezier(1.5, 1, 1, 1.000) infinite alternate;
+      position: absolute;
+      top: 0;
+      right: 0;
+      pointer-events: none;
+      backface-visibility: hidden;
+    }
+    
+    
+}
