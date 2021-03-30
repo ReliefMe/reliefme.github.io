@@ -1,0 +1,911 @@
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 8em;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(154, 184, 250);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #446696;
+    margin: auto;
+    padding: 80px;
+    border: 1px solid #888;
+    width: auto;
+    max-width: 60%;
+    min-width: 20%;
+
+}
+
+@media (min-width: 1575.98px) {
+    .modal-content {
+        max-width: 15%;
+        min-width: 20%;
+        padding: 5em;
+
+    }
+    .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 10em;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(154, 184, 250);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    /* Black w/ opacity */
+}
+}
+
+
+    /* The Close Button */
+    .close {
+        color: #92c2e2;
+        float: left;
+        font-size: 28px;
+        font-weight: bold;
+        top: 0;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .form-container input[type=text],
+    .form-container input[type=password] {
+        height: 20px;
+        padding: 15px 0;
+        background: none;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+
+    }
+
+    .form-container input[type=text],
+    .form-container input::placeholder {
+        color: #ffffff;
+        opacity: 1;
+        font-size: medium;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    /* When the inputs get focus, do something */
+    .form-container input[type=text]:focus,
+    .form-container input[type=text]:focus {
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+
+    }
+
+    /* Set a style for the submit/login button */
+    .form-container .btn {
+        color: #1d55a8;
+        cursor: pointer;
+        width: 100%;
+        height: 4em;
+        margin-bottom: 5px;
+        background: #ffffff;
+        box-shadow: inset 0 0 0 50px #ffffff;
+
+    }
+
+    /* Add some hover effects to buttons */
+    .form-container .btn:hover,
+    .open-button:hover {
+        opacity: 1;
+        color: #ffffff;
+        ;
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: #ffffff;
+
+    }
+
+    @media (max-width: 4200px) and (min-width:3800px) {
+        .modal-content {
+            max-width: 30%;
+            min-width: 30%;
+            padding: 5em;
+    
+        }
+
+        .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 40em;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(154, 184, 250);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        /* Black w/ opacity */
+    }
+
+        /* The Close Button */
+        .close {
+            color: #92c2e2;
+            float: left;
+            font-size: 48px;
+            font-weight: bold;
+            top: 0;
+        }
+    
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+        .form-container input[type=text],
+        .form-container input[type=password] {
+            height: 20px;
+            padding: 25px 0;
+            background: none;
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        .form-container input[type=text],
+        .form-container input::placeholder {
+            color: #ffffff;
+            opacity: 1;
+            font-size: xx-large;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+    
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus,
+        .form-container input[type=text]:focus {
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        /* Set a style for the submit/login button */
+        .form-container .btn {
+            color: #1d55a8;
+            cursor: pointer;
+            width: 100%;
+            height: 4em;
+            margin-bottom: 5px;
+            background: #ffffff;
+            box-shadow: inset 0 0 0 50px #ffffff;
+    
+        }
+    
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+            color: #ffffff;
+            ;
+            background: transparent;
+            box-shadow: inset 0 0 0 0 #ffffff;
+            border-color: #ffffff;
+    
+        }
+
+        .form-container h3 {
+            color: white; 
+            text-align: center; 
+            margin-bottom: 2em; 
+            margin-top: 1em;
+            font-size: xxx-large;
+        }
+    
+    
+    }
+    
+    @media (max-width: 3800px) and (min-width:3400px) {
+    
+        .modal-content {
+            max-width: 30%;
+            min-width: 30%;
+            padding: 5em;
+    
+        }
+
+        .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 40em;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(154, 184, 250);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        /* Black w/ opacity */
+    }
+
+        /* The Close Button */
+        .close {
+            color: #92c2e2;
+            float: left;
+            font-size: 48px;
+            font-weight: bold;
+            top: 0;
+        }
+    
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+        .form-container input[type=text],
+        .form-container input[type=password] {
+            height: 20px;
+            padding: 25px 0;
+            background: none;
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        .form-container input[type=text],
+        .form-container input::placeholder {
+            color: #ffffff;
+            opacity: 1;
+            font-size: xx-large;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+    
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus,
+        .form-container input[type=text]:focus {
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        /* Set a style for the submit/login button */
+        .form-container .btn {
+            color: #1d55a8;
+            cursor: pointer;
+            width: 100%;
+            height: 4em;
+            margin-bottom: 5px;
+            background: #ffffff;
+            box-shadow: inset 0 0 0 50px #ffffff;
+    
+        }
+    
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+            color: #ffffff;
+            ;
+            background: transparent;
+            box-shadow: inset 0 0 0 0 #ffffff;
+            border-color: #ffffff;
+    
+        }
+
+        .form-container h3 {
+            color: white; 
+            text-align: center; 
+            margin-bottom: 2em; 
+            margin-top: 1em;
+            font-size: xxx-large;
+        }
+    
+
+    }
+    
+    @media (max-width: 3200px) and (min-width:2800px) {
+    
+        .modal-content {
+            max-width: 30%;
+            min-width: 30%;
+            padding: 5em;
+    
+        }
+
+        .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 40em;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(154, 184, 250);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        /* Black w/ opacity */
+    }
+
+        /* The Close Button */
+        .close {
+            color: #92c2e2;
+            float: left;
+            font-size: 48px;
+            font-weight: bold;
+            top: 0;
+        }
+    
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+        .form-container input[type=text],
+        .form-container input[type=password] {
+            height: 20px;
+            padding: 25px 0;
+            background: none;
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        .form-container input[type=text],
+        .form-container input::placeholder {
+            color: #ffffff;
+            opacity: 1;
+            font-size: xx-large;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+    
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus,
+        .form-container input[type=text]:focus {
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        /* Set a style for the submit/login button */
+        .form-container .btn {
+            color: #1d55a8;
+            cursor: pointer;
+            width: 100%;
+            height: 4em;
+            margin-bottom: 5px;
+            background: #ffffff;
+            box-shadow: inset 0 0 0 50px #ffffff;
+    
+        }
+    
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+            color: #ffffff;
+            ;
+            background: transparent;
+            box-shadow: inset 0 0 0 0 #ffffff;
+            border-color: #ffffff;
+    
+        }
+
+        .form-container h3 {
+            color: white; 
+            text-align: center; 
+            margin-bottom: 2em; 
+            margin-top: 1em;
+            font-size: xxx-large;
+        }
+    
+
+    }
+    
+    @media (max-width: 2800px) and (min-width:2400px) {
+    
+        .modal-content {
+            max-width: 30%;
+            min-width: 20%;
+            padding: 5em;
+    
+        }
+
+        .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 20em;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(154, 184, 250);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        /* Black w/ opacity */
+    }
+
+        /* The Close Button */
+        .close {
+            color: #92c2e2;
+            float: left;
+            font-size: 48px;
+            font-weight: bold;
+            top: 0;
+        }
+    
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+        .form-container input[type=text],
+        .form-container input[type=password] {
+            height: 20px;
+            padding: 25px 0;
+            background: none;
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        .form-container input[type=text],
+        .form-container input::placeholder {
+            color: #ffffff;
+            opacity: 1;
+            font-size: x-large;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+    
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus,
+        .form-container input[type=text]:focus {
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        /* Set a style for the submit/login button */
+        .form-container .btn {
+            color: #1d55a8;
+            cursor: pointer;
+            width: 100%;
+            height: 4em;
+            margin-bottom: 5px;
+            background: #ffffff;
+            box-shadow: inset 0 0 0 50px #ffffff;
+    
+        }
+    
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+            color: #ffffff;
+            ;
+            background: transparent;
+            box-shadow: inset 0 0 0 0 #ffffff;
+            border-color: #ffffff;
+    
+        }
+
+        .form-container h3 {
+            color: white; 
+            text-align: center; 
+            margin-bottom: 2em; 
+            margin-top: 1em;
+            font-size: xxx-large;
+        }
+    
+
+    }       
+        
+    @media (max-width: 2400px) and (min-width:2000px) {
+    
+        .modal-content {
+            max-width: 30%;
+            min-width: 20%;
+            padding: 3em;
+    
+        }
+
+        .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 12em;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(154, 184, 250);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        /* Black w/ opacity */
+    }
+
+        /* The Close Button */
+        .close {
+            color: #92c2e2;
+            float: left;
+            font-size: 36px;
+            font-weight: bold;
+            top: 0;
+        }
+    
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+        .form-container input[type=text],
+        .form-container input[type=password] {
+            height: 20px;
+            padding: 25px 0;
+            background: none;
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        .form-container input[type=text],
+        .form-container input::placeholder {
+            color: #ffffff;
+            opacity: 1;
+            font-size: large;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+    
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus,
+        .form-container input[type=text]:focus {
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        /* Set a style for the submit/login button */
+        .form-container .btn {
+            color: #1d55a8;
+            cursor: pointer;
+            width: 100%;
+            height: 3em;
+            padding: 0em;
+            margin-bottom: 3px;
+            background: #ffffff;
+            box-shadow: inset 0 0 0 50px #ffffff;
+    
+        }
+    
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+            color: #ffffff;
+            background: transparent;
+            box-shadow: inset 0 0 0 0 #ffffff;
+            border-color: #ffffff;
+    
+        }
+
+        .form-container h3 {
+            color: white; 
+            text-align: center; 
+            margin-bottom: 1em; 
+            margin-top: 1em;
+            font-size: xx-large;
+        }
+    
+
+    }
+        
+    @media (max-width: 2000px) and (min-width:1600px) {
+    
+        .modal-content {
+            max-width: 30%;
+            min-width: 20%;
+            padding: 3em;
+    
+        }
+
+        .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 12em;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(154, 184, 250);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        /* Black w/ opacity */
+    }
+
+        /* The Close Button */
+        .close {
+            color: #92c2e2;
+            float: left;
+            font-size: 36px;
+            font-weight: bold;
+            top: 0;
+        }
+    
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+        .form-container input[type=text],
+        .form-container input[type=password] {
+            height: 20px;
+            padding: 25px 0;
+            background: none;
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        .form-container input[type=text],
+        .form-container input::placeholder {
+            color: #ffffff;
+            opacity: 1;
+            font-size: large;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+    
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus,
+        .form-container input[type=text]:focus {
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        /* Set a style for the submit/login button */
+        .form-container .btn {
+            color: #1d55a8;
+            cursor: pointer;
+            width: 100%;
+            height: 3em;
+            padding: 0em;
+            margin-bottom: 3px;
+            background: #ffffff;
+            box-shadow: inset 0 0 0 50px #ffffff;
+    
+        }
+    
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+            color: #ffffff;
+            background: transparent;
+            box-shadow: inset 0 0 0 0 #ffffff;
+            border-color: #ffffff;
+    
+        }
+
+        .form-container h3 {
+            color: white; 
+            text-align: center; 
+            margin-bottom: 1em; 
+            margin-top: 1em;
+            font-size: xx-large;
+        }
+
+    }
+                
+    @media (max-width: 1600px) and (min-width:1200px) {
+    
+        .modal-content {
+            max-width: 20%;
+            min-width: 30%;
+            padding: 3em;
+    
+        }
+
+        .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 8em;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(154, 184, 250);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        /* Black w/ opacity */
+    }
+
+        /* The Close Button */
+        .close {
+            color: #92c2e2;
+            float: left;
+            font-size: 36px;
+            font-weight: bold;
+            top: 0;
+        }
+    
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+        .form-container input[type=text],
+        .form-container input[type=password] {
+            height: 20px;
+            padding: 25px 0;
+            background: none;
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        .form-container input[type=text],
+        .form-container input::placeholder {
+            color: #ffffff;
+            opacity: 1;
+            font-size: xxx-medium;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+    
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus,
+        .form-container input[type=text]:focus {
+            border-bottom: 1px solid rgba(256, 256, 256, .5);
+    
+        }
+    
+        /* Set a style for the submit/login button */
+        .form-container .btn {
+            color: #1d55a8;
+            cursor: pointer;
+            width: 100%;
+            height: 3em;
+            padding: 0em;
+            margin-bottom: 3px;
+            background: #ffffff;
+            box-shadow: inset 0 0 0 50px #ffffff;
+    
+        }
+    
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+            color: #ffffff;
+            background: transparent;
+            box-shadow: inset 0 0 0 0 #ffffff;
+            border-color: #ffffff;
+    
+        }
+
+        .form-container h3 {
+            color: white; 
+            text-align: center; 
+            margin-bottom: 1em; 
+            margin-top: 1em;
+            font-size: xx-large;
+        }
+    
+
+    }
+        

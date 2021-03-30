@@ -1,0 +1,714 @@
+/*******************************/
+/********* Contact CSS *********/
+/*******************************/
+
+.contact {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    background: #446696;
+    background: url(../img/assets/pattern-parallax.jpg);
+}
+
+.contact .container-fluid {
+    background: url(../img/Carts/Chat-01.png) left center no-repeat;
+    background-size: auto;
+    padding-left: 5em;
+
+    
+}
+
+.contact .contact-form {
+    position: relative;
+    padding: 129px 28px 73px 15px;
+    background: #446696;
+
+}
+
+.contact .contact-form input {
+    color: #ffffff;
+    padding: 15px 0;
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(256, 256, 256, .5);
+}
+
+.contact .contact-form textarea {
+    color: #ffffff;
+    height: 90px;
+    padding: 15px 0;
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(256, 256, 256, .5);
+}
+
+.contact .contact-form .form-control::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.contact .contact-form .form-control:-ms-input-placeholder,
+.contact .contact-form .form-control::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.contact .contact-form .btn {
+    margin-top: 35px;
+    color: #446696;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 50px #ffffff;
+}
+
+.contact .contact-form .btn:hover {
+    color: #ffffff;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #ffffff;
+}
+
+.contact .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+@media (max-width: 4200px) and (min-width:3800px) {
+
+    .contact {
+        position: relative;
+        width: 100%;
+        margin: 45px 0;
+        background: #446696;
+        background: url(../img/assets/pattern-parallax.jpg);
+        background-size: cover;
+    }
+    
+    .contact .container-fluid {
+        background: url(../img/Carts/Chat-01.png) left center no-repeat;
+        background-size: 80em;
+        
+        
+    }
+    
+    .contact-form {
+        width: 110em;
+        height: 85em;
+    }
+        
+    .contact .contact-form {
+        position: relative;
+        padding: 150px 0 90px 0px;
+        background: #446696;
+    
+    }
+    
+    .contact .contact-form input {
+        color: #ffffff;
+        font-size: 20px;
+        padding: 100px 5px 80px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+    .contact .contact-form textarea {
+        color: #ffffff;
+        height: 90px;        
+        padding: 50px 5px 150px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+
+    .contact .contact-form .form-control::placeholder {
+        color: #ffffff;
+        font-size: 36px;
+        opacity: 1;
+    }
+    
+    .contact .contact-form .form-control:-ms-input-placeholder,
+    .contact .contact-form .form-control::-ms-input-placeholder {
+        color: #ffffff;
+    }
+    
+    .contact .contact-form .btn {
+        margin-top: 35px;
+        color: #446696;
+        width: 15em;
+        height: 4em;
+        background: #ffffff;
+        box-shadow: inset 0 0 0 50px #ffffff;
+    }
+    
+    .contact .contact-form .btn:hover {
+        color: #ffffff;
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: #ffffff;
+    }
+    
+    .contact .help-block ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-size: 36px;
+        font-style: italic;
+        color: #ffffff;
+    }
+    
+
+}
+
+@media (max-width: 3800px) and (min-width:3400px) {
+
+    .contact {
+        position: relative;
+        width: 100%;
+        margin: 45px 0;
+        background: #446696;
+        background: url(../img/assets/pattern-parallax.jpg);
+        background-size: cover;
+    }
+    
+    .contact .container-fluid {
+        background: url(../img/Carts/Chat-01.png) left center no-repeat;
+        background-size: 50em;
+        
+        
+    }
+    
+    .contact-form {
+        width: 100em;
+        height: 80em;
+    }
+        
+    .contact .contact-form {
+        position: relative;
+        padding: 90px 0 90px 45px;
+        background: #446696;
+    
+    }
+    
+    .contact .contact-form input {
+        color: #ffffff;
+        font-size: 72px;
+        padding: 100px 24px 75px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+    .contact .contact-form textarea {
+        color: #ffffff;
+        height: 90px;        
+        padding: 100px 24px 175px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+
+    .contact .contact-form .form-control::placeholder {
+        color: #ffffff;
+        font-size: 48px;
+        opacity: 1;
+    }
+    
+    .contact .contact-form .form-control:-ms-input-placeholder,
+    .contact .contact-form .form-control::-ms-input-placeholder {
+        color: #ffffff;
+    }
+    
+    .contact .contact-form .btn {
+        margin-top: 35px;
+        color: #446696;
+        width: 15em;
+        height: 4em;
+        background: #ffffff;
+        box-shadow: inset 0 0 0 50px #ffffff;
+    }
+    
+    .contact .contact-form .btn:hover {
+        color: #ffffff;
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: #ffffff;
+    }
+    
+    .contact .help-block ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-size: 14px;
+        font-style: italic;
+        color: #ffffff;
+    }
+
+}
+
+@media (max-width: 3200px) and (min-width:2800px) {
+
+    .contact {
+        position: relative;
+        width: 100%;
+        margin: 45px 0;
+        background: #446696;
+        background: url(../img/assets/pattern-parallax.jpg);
+        background-size: cover;
+    }
+    
+    .contact .container-fluid {
+        background: url(../img/Carts/Chat-01.png) left center no-repeat;
+        background-size: 50em;
+        
+        
+    }
+    
+    .contact-form {
+        width: 100em;
+        height: 80em;
+    }
+        
+    .contact .contact-form {
+        position: relative;
+        padding: 90px 0 90px 45px;
+        background: #446696;
+    
+    }
+    
+    .contact .contact-form input {
+        color: #ffffff;
+        font-size: 72px;
+        padding: 100px 24px 75px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+    .contact .contact-form textarea {
+        color: #ffffff;
+        height: 90px;        
+        padding: 100px 24px 175px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+
+    .contact .contact-form .form-control::placeholder {
+        color: #ffffff;
+        font-size: 48px;
+        opacity: 1;
+    }
+    
+    .contact .contact-form .form-control:-ms-input-placeholder,
+    .contact .contact-form .form-control::-ms-input-placeholder {
+        color: #ffffff;
+    }
+    
+    .contact .contact-form .btn {
+        margin-top: 35px;
+        color: #446696;
+        width: 15em;
+        height: 4em;
+        background: #ffffff;
+        box-shadow: inset 0 0 0 50px #ffffff;
+    }
+    
+    .contact .contact-form .btn:hover {
+        color: #ffffff;
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: #ffffff;
+    }
+    
+    .contact .help-block ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-size: 14px;
+        font-style: italic;
+        color: #ffffff;
+    }
+
+}
+
+@media (max-width: 2800px) and (min-width:2400px) {
+
+    .contact {
+        position: relative;
+        width: 100%;
+        margin: 45px 0;
+        background: #446696;
+        background: url(../img/assets/pattern-parallax.jpg);
+        background-size: cover;
+    }
+    
+    .contact .container-fluid {
+        background: url(../img/Carts/Chat-01.png) left center no-repeat;
+        background-size: 60em;
+        
+        
+    }
+    
+    .contact-form {
+        width: 75em;
+        height: 55em;
+    }
+        
+    .contact .contact-form {
+        position: relative;
+        padding: 90px 0 90px 0px;
+        background: #446696;
+    
+    }
+    
+    .contact .contact-form input {
+        color: #ffffff;
+        font-size: 24px;
+        padding: 65px 5px 45px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+    .contact .contact-form textarea {
+        color: #ffffff;
+        height: 90px;        
+        padding: 20px 5px 25px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+
+    .contact .contact-form .form-control::placeholder {
+        color: #ffffff;
+        font-size: 24px;
+        opacity: 1;
+    }
+    
+    .contact .contact-form .form-control:-ms-input-placeholder,
+    .contact .contact-form .form-control::-ms-input-placeholder {
+        color: #ffffff;
+    }
+    
+    .contact .contact-form .btn {
+        margin-top: 35px;
+        color: #446696;
+        width: 15em;
+        height: 4em;
+        background: #ffffff;
+        box-shadow: inset 0 0 0 50px #ffffff;
+    }
+    
+    .contact .contact-form .btn:hover {
+        color: #ffffff;
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: #ffffff;
+    }
+    
+    .contact .help-block ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-size: 24px;
+        font-style: italic;
+        color: #ffffff;
+    }
+
+}       
+    
+@media (max-width: 2400px) and (min-width:2000px) {
+
+    .contact {
+        position: relative;
+        width: 100%;
+        margin: 45px 0;
+        background: #446696;
+        background: url(../img/assets/pattern-parallax.jpg);
+        background-size: cover;
+    }
+    
+    .contact .container-fluid {
+        background: url(../img/Carts/Chat-01.png) left center no-repeat;
+        background-size: 50em;
+        
+        
+    }
+    
+    .contact-form {
+        width: 60em;
+        height: 45em;
+    }
+        
+    .contact .contact-form {
+        position: relative;
+        padding: 90px 0 90px 0px;
+        background: #446696;
+    
+    }
+    
+    .contact .contact-form input {
+        color: #ffffff;
+        font-size: 20px;
+        padding: 20px 5px 45px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+    .contact .contact-form textarea {
+        color: #ffffff;
+        height: 90px;        
+        padding: 20px 5px 25px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+
+    .contact .contact-form .form-control::placeholder {
+        color: #ffffff;
+        font-size: 20px;
+        opacity: 1;
+    }
+    
+    .contact .contact-form .form-control:-ms-input-placeholder,
+    .contact .contact-form .form-control::-ms-input-placeholder {
+        color: #ffffff;
+    }
+    
+    .contact .contact-form .btn {
+        margin-top: 35px;
+        color: #446696;
+        width: 15em;
+        height: 3em;
+        padding: 0em;
+        background: #ffffff;
+        box-shadow: inset 0 0 0 50px #ffffff;
+    }
+    
+    .contact .contact-form .btn:hover {
+        color: #ffffff;
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: #ffffff;
+    }
+    
+    .contact .help-block ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-size: 14px;
+        font-style: italic;
+        color: #ffffff;
+    }
+
+}
+    
+@media (max-width: 2000px) and (min-width:1600px) {
+
+    .contact {
+        position: relative;
+        width: 100%;
+        margin: 45px 0;
+        background: #446696;
+        background: url(../img/assets/pattern-parallax.jpg);
+        background-size: cover;
+    }
+    
+    .contact .container-fluid {
+        background: url(../img/Carts/Chat-01.png) left center no-repeat;
+        background-size: 40em;
+        
+        
+    }
+    
+    .contact-form {
+        width: 55em;
+        height: 40em;
+    }
+        
+    .contact .contact-form {
+        position: relative;
+        padding: 90px 0 90px 0px;
+        background: #446696;
+    
+    }
+    
+    .contact .contact-form input {
+        color: #ffffff;
+        font-size: 16px;
+        padding: 20px 5px 38px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+    .contact .contact-form textarea {
+        color: #ffffff;
+        height: 90px;        
+        padding: 20px 5px 25px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+
+    .contact .contact-form .form-control::placeholder {
+        color: #ffffff;
+        font-size: 16px;
+        opacity: 1;
+    }
+    
+    .contact .contact-form .form-control:-ms-input-placeholder,
+    .contact .contact-form .form-control::-ms-input-placeholder {
+        color: #ffffff;
+    }
+    
+    .contact .contact-form .btn {
+        margin-top: 35px;
+        color: #446696;
+        width: 15em;
+        height: 4em;
+        background: #ffffff;
+        box-shadow: inset 0 0 0 50px #ffffff;
+    }
+    
+    .contact .contact-form .btn:hover {
+        color: #ffffff;
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: #ffffff;
+    }
+    
+    .contact .help-block ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-size: 14px;
+        font-style: italic;
+        color: #ffffff;
+    }
+
+}
+            
+@media (max-width: 1600px) and (min-width:1200px) {
+    
+    .contact {
+        position: relative;
+        width: 100%;
+        margin: 45px 0;
+        background: #446696;
+        background: url(../img/assets/pattern-parallax.jpg);
+        background-size: cover;
+    }
+    
+    .contact .container-fluid {
+        background: url(../img/Carts/Chat-01.png) left center no-repeat;
+        background-size: 30em;
+        
+        
+    }
+    
+    .contact-form {
+        width: 45em;
+        height: 35em;
+    }
+        
+    .contact .contact-form {
+        position: relative;
+        padding: 90px 0 90px 0px;
+        background: #446696;
+    
+    }
+    
+    .contact .contact-form input {
+        color: #ffffff;
+        font-size: 11px;
+        padding: 20px 5px 38px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+    .contact .contact-form textarea {
+        color: #ffffff;
+        height: 90px;        
+        padding: 20px 5px 25px;
+        background: none;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(256, 256, 256, .5);
+    }
+    
+
+    .contact .contact-form .form-control::placeholder {
+        color: #ffffff;
+        font-size: 14px;
+        opacity: 1;
+    }
+    
+    .contact .contact-form .form-control:-ms-input-placeholder,
+    .contact .contact-form .form-control::-ms-input-placeholder {
+        color: #ffffff;
+    }
+    
+    .contact .contact-form .btn {
+        margin-top: 35px;
+        color: #446696;
+        width: 15em;
+        height: 4em;
+        background: #ffffff;
+        box-shadow: inset 0 0 0 50px #ffffff;
+    }
+    
+    .contact .contact-form .btn:hover {
+        color: #ffffff;
+        background: transparent;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        border-color: #ffffff;
+    }
+    
+    .contact .help-block ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-size: 14px;
+        font-style: italic;
+        color: #ffffff;
+    }
+
+}
+    
+
+@media (max-width: 767.98px) {
+    .contact .container-fluid {
+        background: none;
+    }
+    
+    .contact .contact-form {
+        padding: 90px 0;
+    }
+}

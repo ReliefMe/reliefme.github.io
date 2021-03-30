@@ -1,0 +1,139 @@
+/*******************************/
+/****** COVID COUNTER CSS ******/
+/*******************************/
+
+@media (max-width: 4200px) and (min-width:3800px) {
+ 
+
+    #prevent {
+        min-height: 500px;
+        padding: 5em 1em 4em 15em; 
+    }
+    
+    .counter-wrap h2 {
+        font-size : 82px;
+    }
+    
+    .counter-wrap h3 {
+        font-size : 82px;
+    }
+    
+    }
+    
+    @media (max-width: 3800px) and (min-width:3400px) {
+    
+        #covid-alert .container-fluid
+        {
+            max-width: 98%;
+        }
+    
+        #prevent {
+            min-height: 500px;
+            padding: 5em 1em 4em 15em; 
+            
+        }
+        
+        .counter-wrap h2 {
+            font-size : 80px;
+        }
+        
+        .counter-wrap h3 {
+            font-size : 80px;
+        }
+        
+        }
+    
+        @media (max-width: 2800px) and (min-width:2400px) {
+    
+            #covid-alert .container-fluid
+            {
+                max-width: 98%;
+            }
+        
+            #prevent {
+                min-height: 400px;
+                padding: 5em 0em 4em 4em; 
+                
+            }
+            
+            .counter-wrap h2 {
+                font-size : 60px;
+            }
+            
+            .counter-wrap h3 {
+                font-size : 60px;
+            }
+            
+            }
+        
+    
+            @media (max-width: 2400px) and (min-width:2000px) {
+    
+                #covid-alert .container-fluid
+                {
+                    max-width: 98%;
+                }
+            
+                #prevent {
+                    min-height: 400px;
+                    padding: 5em 0em 4em 4em; 
+                    
+                }
+                
+                .counter-wrap h2 {
+                    font-size : 50px;
+                }
+                
+                .counter-wrap h3 {
+                    font-size : 50px;
+                }
+                
+                }
+    
+                @media (max-width: 2000px) and (min-width:1600px) {
+    
+                    #covid-alert .container-fluid
+                    {
+                        max-width: 98%;
+                    }
+                
+                    #prevent {
+                        min-height: 200px;
+                        padding: 5em 0em 4em 4em; 
+                        
+                    }
+                    
+                    .counter-wrap h2 {
+                        font-size : 42px;
+                    }
+                    
+                    .counter-wrap h3 {
+                        font-size : 42px;
+                    }
+                    
+                    }
+        
+    
+                @media (max-width: 1600px) and (min-width:1200px) {
+    
+                    #covid-alert .container-fluid
+                    {
+                        max-width: 97%;
+                    }
+                
+                    #prevent {
+                        min-height: 300px;
+                        padding: 5em 0em 4em 4em; 
+                        
+                    }
+                    
+                    .counter-wrap h2 {
+                        font-size : 30px;
+                    }
+                    
+                    .counter-wrap h3 {
+                        font-size : 30px;
+                    }
+                    
+                    }
+    

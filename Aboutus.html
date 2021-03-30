@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ReliefMe</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Relief" name="keywords">
+    <meta content="Relief" name="description">
+
+    <!-- Favicon -->
+    <link href="Reliefme-04.png" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!--  Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/master.css" rel="stylesheet">
+    <link href="css/BMI.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+
+            <a href="index.html" class="navbar-brand"><img src="img/Reliefme-02.png"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" target="_blank" class="nav-item nav-link">Home</a>
+                    <a href="index.html#for-you" class="nav-item nav-link">For You</a>
+                    <a href="index.html#covid-alert" class="nav-item nav-link">Covid Alert</a>
+                    <!--<a href="#about" class="nav-item nav-link">About</a>-->
+                    <!--<a href="#Product" class="nav-item nav-link">Product</a>-->
+                    <!-- <a href="#experience" class="nav-item nav-link">Experience</a> -->
+                    <a href="Aboutus.html" class="nav-item nav-link active">About Us</a>
+                    <!-- <a href="#price" class="nav-item nav-link">Price</a> -->
+                    <a href="index.html#review" class="nav-item nav-link">Review</a>
+                    <a href="Team.html" target="_blank" class="nav-item nav-link">Team</a>
+                    <!-- <a href="#blog" class="nav-item nav-link">Blog</a> -->
+                    <a href="index.html#contact" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Hero Start -->
+
+    <div class="hero" id="home">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
+            <div class="carousel-inner">
+                <div class="container-fluid">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="hero-content">
+                                    <div class="hero-text">
+                                        <p style="color: #446696;">ReliefMe</p>
+                                        <h1 style="color: #446696;">WHO WE ARE?</h1>
+                                        <h6 style="color: #446696;">ReliefMe is a Foundation of
+                                            Inovation in terms of betterment, Which help`s people live their life
+                                            Healthy.</h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-none d-md-block">
+                                <div class="hero-image">
+                                    <img src="img/aboutus.png" alt="Hero Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="hero-content">
+                        <div class="hero-btn" style="margin-top: 15em;">
+                            <a class="btn" href="index.html#contact" style="color: #446696;">Suggest Us</a>
+                            <button class="btn" id="myBtn" style="color: #446696;">Check Your BMI</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="hero-btn">
+        <a class="btn" href="Team.html" style="color: #446696;">Suggest Us</a>
+      <!--  <a class="btn" id="mybtn" href="" style="color: #446696;">Check Your BMI</a> 
+      <button class="btn" id="myBtn" style="color: #446696;">Check Your BMI</button>
+    </div> -->
+    </div>
+
+    <!-- Hero End -->
+
+    <!-- Hero End -->
+
+
+    <!-- BMI START -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="form-popup" id="myForm">
+                <form action="" class="form-container">
+                    <h3 style="color: white; text-align: center; margin-bottom: 2em; margin-top: 1em;">BMI Calculator
+                    </h3>
+
+                    <input type="text" placeholder="Enter Height" name="height" required>
+
+                    <input type="text" placeholder="Enter Weight" name="Weight" required>
+
+                    <button type="submit" class="btn">Check BMI</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+    </script>
+
+    <!-- BMI END -->
+
+
+    <!--=== Welcome Start ===-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 heading-style-one box-title-two text-left">
+                    <h6 class="steelblue-color text-uppercase">About our Mission</h6>
+                    <h2><span class="font-800" style="margin-left: 0%; opacity: 100%;">Mission Statement</h2>
+                    <p>To serve humanity by providing relief to everyone and reducing mental stress. We believe
+                        To ensure that everyone has a quick and authentic access to health services around the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=== Welcome End ===-->
+
+    <!--=== Transmission Start ===-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 heading-style-one box-title-two text-left">
+                    <h6 class="steelblue-color text-uppercase">About our vision</h6>
+                    <h2><span class="font-800" style="margin-left: 0%; opacity: 100%;">Vision Statement</h2>
+                    <p>Our vision is to make medical services accessible, affordable and remote so that anyone around
+                        the world can get the best consultation, assistance and medical services from the palm of their
+                        hands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=== Transmission End ===-->
+
+    <!--=== Symptoms Start ===-->
+    <section class="light-bg" id="app" style="
+    padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 heading-style-one box-title">
+                    <h6 class="default-color text-uppercase">About our app</h6>
+                    <h2><span class="font-800" style="margin-left: 0%; opacity: 100%;">What Are We Developing?</span>
+                    </h2>
+                    <p>We are building a mobile/web app solution that uses AI models to detect COVID-19 distinct cough
+                        and
+                        breathing sounds along with oxygen level from finger image oximetry. </p>
+                    <div class="welcome-style-two mt-30">
+                        <div class="thin-border-purple thin-borders pull-left"></div>
+                        <p class="pull-left">Users provide audio and visual clips using smartphones for self screening
+                            and not
+                            only does the system provide a risk assessment but it also provides monitoring by connecting
+                            them to the
+                            health care system.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive symptom-img" src="img/images/smartphone.png" alt="smartphone" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=== App End ===-->
+
+<!-- Footer Start -->
+<div class="footer wow fadeIn" data-wow-delay="0.3s">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="footer-info">
+                <h2><img src="img/Reliefme-02.png">
+                </h2>
+                <h3>
+                    Karachi,
+                    Pakistan</h3>
+                <div class="footer-menu">
+                    <!-- <p>+012 345 67890</p> -->
+                    <p>
+                        support@reliefme.org</p>
+                </div>
+                <div class="footer-social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/reliefmeorg" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCLvB517X3mGRLKXsl80qvCA" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/reliefmeorg" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p><a href="#">ReliefMe
+                </a>&copy;
+                All Right Reserved
+        </div>
+    </div>
+
+</div>
+<!-- Footer End -->
+
+    <!-- Back to top button -->
+    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+</body>
+
+</html>

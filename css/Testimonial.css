@@ -1,0 +1,110 @@
+/*******************************/
+/********* Testimonial CSS *****/
+/*******************************/
+
+@media (max-width: 4200px) and (min-width:3800px) {
+
+    .blockquote p {
+        font-size: 72px;
+}
+    .blockquote footer {
+        font-size: 48px;
+        text-align: center;
+}
+    #review {
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 3800px) and (min-width:3400px) {
+
+    .blockquote p {
+        font-size: 72px;
+}
+    .blockquote footer {
+        font-size: 48px;
+        text-align: center;
+}
+    #review {
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 3200px) and (min-width:2800px) {
+
+    .blockquote p {
+        font-size: 72px;
+}
+    .blockquote footer {
+        font-size: 48px;
+        text-align: center;
+}
+    #review {
+        height: 700px;
+    }
+
+
+}
+
+@media (max-width: 2800px) and (min-width:2400px) {
+
+    .blockquote p {
+        font-size: 55px;
+}
+    .blockquote footer {
+        font-size: 30px;
+        text-align: center;
+}
+    #review {
+        height: 550px;
+    }
+
+}       
+    
+@media (max-width: 2400px) and (min-width:2000px) {
+
+    .blockquote p {
+        font-size: 42px;
+}
+    .blockquote footer {
+        font-size: 24px;
+        text-align: center;
+}
+    #review {
+        height: 500px;
+}
+
+}
+    
+@media (max-width: 2000px) and (min-width:1600px) {
+
+    .blockquote p {
+        font-size: 36px;
+}
+    .blockquote footer {
+        font-size: 21px;
+        text-align: center;
+}
+    #review {
+        height: 400px;
+}
+
+}
+            
+@media (max-width: 1600px) and (min-width:1200px) {
+    
+    .blockquote p {
+        font-size: 28px;
+}
+    .blockquote footer {
+        font-size: 14px;
+        text-align: center;
+}
+    #review {
+        height: 400px;
+}
+
+}
+    

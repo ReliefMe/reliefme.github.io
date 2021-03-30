@@ -1,0 +1,150 @@
+/*******************************/
+/********** Hand Wash **********/
+/*******************************/
+
+.hand-icon {
+    background: url(../images/hand-icon.svg) no-repeat;
+    background-size: cover;
+  }
+
+@media (max-width: 4200px) and (min-width:3800px) {
+ 
+    .handwash h6 {
+        font-size: 36px;
+    }
+    .handwash h2 {
+        font-size: 60px;
+    }
+    .handwash p {
+        font-size: 36px;
+    }
+    .handwash span {
+        font-size: 60px;
+    }
+    .handwash h5 {
+        font-size: 36px;
+    }
+    
+}
+
+@media (max-width: 3800px) and (min-width:3400px) {
+    
+    .handwash h6 {
+        font-size: 30px;
+    }
+    .handwash h2 {
+        font-size: 66px;
+    }
+    .handwash p {
+        font-size: 30px;
+    }
+    .handwash span {
+        font-size: 66px;
+    }
+    .handwash h5 {
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 3200px) and (min-width:2800px) {
+    
+    .handwash h6 {
+        font-size: 30px;
+    }
+    .handwash h2 {
+        font-size: 66px;
+    }
+    .handwash p {
+        font-size: 30px;
+    }
+    .handwash span {
+        font-size: 66px;
+    }
+    .handwash h5 {
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 2800px) and (min-width:2400px) {
+
+    .handwash h6 {
+        font-size: 30px;
+    }
+    .handwash h2 {
+        font-size: 60px;
+    }
+    .handwash p {
+        font-size: 30px;
+    }
+    .handwash span {
+        font-size: 60px;
+    }
+    .handwash h5 {
+        font-size: 30px;
+    }
+
+    
+}       
+    
+@media (max-width: 2400px) and (min-width:2000px) {
+
+    .handwash h6 {
+        font-size: 21px;
+    }
+    .handwash h2 {
+        font-size: 48px;
+    }
+    .handwash p {
+        font-size: 21px;
+    }
+    .handwash span {
+        font-size: 48px;
+    }
+    .handwash h5 {
+        font-size: 21px;
+    }
+
+}
+    
+@media (max-width: 2000px) and (min-width:1600px) {
+
+    .handwash h6 {
+        font-size: 18px;
+    }
+    .handwash h2 {
+        font-size: 40px;
+    }
+    .handwash p {
+        font-size: 18px;
+    }
+    .handwash span {
+        font-size: 40px;
+    }
+    .handwash h5 {
+        font-size: 18px;
+    }
+    
+}
+            
+@media (max-width: 1600px) and (min-width:1200px) {
+
+    .handwash h6 {
+        font-size: 15px;
+    }
+    .handwash h2 {
+        font-size: 33px;
+    }
+    .handwash p {
+        font-size: 15px;
+    }
+    .handwash span {
+        font-size: 33px;
+    }
+    .handwash h5 {
+        font-size: 15px;
+    }
+  
+}
+    
