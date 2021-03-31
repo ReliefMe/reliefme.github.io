@@ -1,4 +1,4 @@
-<div><img src="./assets/images/logo-black.png"></div>
+<div><img src="./img/Reliefme-02.png"></div>
 <div>
 <h2>See our website: <a href="https://www.reliefme.org" target="_blank">https://www.reliefme.org</a></h2>
 <h2>Contact us: <a href="mailto:support@reliefme.org" target="_blank">support@reliefme.org</a></h2>
